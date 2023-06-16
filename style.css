@@ -1,4 +1,65 @@
+body{
+    font-family: 'Stem';
+}
+@font-face{
+    font-family: 'Stem';
+    src: url("./fonts/Stem/Stem-Regular.woff") format("woff"), url("./fonts/Stem/Stem-Regular.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face{
+    font-family: 'Stem';
+    src: url("./fonts/Stem/Stem-Regular.woff") format("woff"), url("./fonts/Stem/Stem-Regular.woff2") format("woff2");
+    font-weight: 350;
+    font-style: normal;
+    font-display: swap;
+}
 header{
     max-width: 1720px;
+    width: min-content;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #00304F;
 }
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 84px;
+    color: #00304F;
+}
+.header-ul-child{
+    margin-right: 30px;
+}
+.header-ul-child:last-child{
+    margin-left: 20px;
+    margin-right: 0px;
+}
+.header-ul-child:hover{
+    color: #F7A96D;
+}
+.header-info-container{
+    color: #00304F;
+    margin-left: 209px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+.header-info-adress{
+    padding-right: 20px;
+}
+.header-info-date{
+    color: #FFFFFF;
+    width: 161px;
+    height: 161px;
+    background-image: url(./img/header/Star-1.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
