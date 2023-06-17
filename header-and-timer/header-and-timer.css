@@ -18,7 +18,7 @@ body{
 @font-face{
     font-family: 'Stem';
     src: url("../fonts/Stem/Stem-Light.woff") format("woff"), url("../fonts/Stem/Stem-Light.woff2") format("woff2");
-    font-weight: 300;
+    font-weight: 350;
     font-style: normal;
     font-display: swap;
 }
