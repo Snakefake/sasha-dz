@@ -15,6 +15,13 @@ body{
     font-style: normal;
     font-display: swap;
 }
+@font-face{
+    font-family: 'Stem';
+    src: url("../fonts/Stem/Stem-Light.woff") format("woff"), url("../fonts/Stem/Stem-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
 header{
     max-width: 1720px;
     width: min-content;
@@ -71,17 +78,20 @@ header ul{
     margin-top: 40px;
     margin-right: 150px;
 }
+
 .time-count-val{
+    width: 138px;
+    height: 111px;
     font-weight: 500;
     font-size: 70px;
-    padding: 20px;
+    padding: 25px;
     color: #F7A96D;
+    text-align: center;
 }
 .time-count-text{
     font-weight: 350;
-    font-size: 30px;
+    font-size: 32px;
     line-height: 32px;
-    letter-spacing: -0.02em;
     text-transform: uppercase;
     display: flex;
     align-items: center;
