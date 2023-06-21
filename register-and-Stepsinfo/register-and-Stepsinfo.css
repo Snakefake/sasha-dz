@@ -15,8 +15,16 @@
     color: #00304F;
     letter-spacing: -0.02em;
 }
+.img-register-bg{
+    background: -webkit-linear-gradient(top, #00304F 50%, white 50%);
+    background: -o-linear-gradient(top, #00304F 50%, white 50%);
+    background: -moz-linear-gradient(top, #00304F 50%, white 50%);
+    background: linear-gradient(to top, #00304F 50%, white 50%);
+}
 .img-register-container{
-    max-width: 1720px;
+    width: 1720px;
+    height: 818px;
+    position: relative;
     margin: 0 auto;
     margin-top: 60px;
 }
@@ -35,8 +43,34 @@
     box-sizing: border-box;
     color: #00304F;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    right: 46%;
+    bottom: 44%;
+
+}
+.info-bg{
+    background-color: #00304F;
+    padding-top: 120px;
+}
+.info-container{
+    max-width: 1720px;
+    margin: 0 auto;
+    display: flex;
+
+}
+.steps-info{
+    font-weight: 500;
+    font-size: 62px;
+    color: #EEEEEE;
+}
+.steps-info-description{
+    width: 592px;
+    margin-top: 47px;
+    color: #EEEEEE;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 1%;
+}
+.colored-text{
+    color: #F7A96D;
 }
