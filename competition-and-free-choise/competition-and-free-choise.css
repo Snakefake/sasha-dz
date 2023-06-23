@@ -1,0 +1,62 @@
+.schedule-wrapper{
+    margin-top: 90px;
+}
+.competition-container{
+    max-width: 1720px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.competition-title{
+    font-size: 113px;
+    font-weight: 500;
+    line-height: 110px;
+    letter-spacing: -2%;
+    color: #00304F;
+    width: 775px;
+    margin: 0 auto;
+    margin-right: 260px;
+}
+.schedule-container{
+    display: flex;
+    align-items: center;
+    padding-bottom: 31px;
+}
+.schedule-container:not(:first-child){
+    margin-top: 21px;
+}
+.schedule-container:not(:last-child){
+    border-bottom: 1px solid #F7A96D;
+}
+.first-schedule-item{
+    font-weight: 350;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1%;
+    color: #00304F;
+    margin-right: 157px;
+}
+.second-schedule-item{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1%;
+    color: #00304F;
+    margin-right: 184px;
+}
+.third-schedule-item{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1%;
+    color: #00304F;
+    margin-right: 50px;
+}
+.fourth-schedule-item{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1%;
+    color: #00304F;
+}
+
+

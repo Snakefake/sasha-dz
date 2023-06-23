@@ -1,3 +1,27 @@
+body{
+    font-family: 'Stem';
+}
+@font-face{
+    font-family: 'Stem';
+    src: url("../fonts/Stem/Stem-Regular.woff") format("woff"), url("../fonts/Stem/Stem-Bold.woff2") format("woff2");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face{
+    font-family: 'Stem';
+    src: url("../fonts/Stem/Stem-Bold.woff") format("woff"), url("../fonts/Stem/Stem-Bold.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face{
+    font-family: 'Stem';
+    src: url("../fonts/Stem/Stem-Light.woff") format("woff"), url("../fonts/Stem/Stem-Light.woff2") format("woff2");
+    font-weight: 350;
+    font-style: normal;
+    font-display: swap;
+}
 .caption-container{
     max-width: 1720px;
     margin: 0 auto;
@@ -52,6 +76,7 @@
 .info-bg{
     background-color: #00304F;
     padding-top: 120px;
+    padding-bottom: 150px;
 }
 .info-container{
     max-width: 1720px;
@@ -63,6 +88,7 @@
     font-weight: 500;
     font-size: 62px;
     color: #EEEEEE;
+    letter-spacing: -2%;
 }
 .steps-info-description{
     width: 592px;
@@ -75,4 +101,84 @@
 }
 .colored-text{
     color: #F7A96D;
+}
+.more-info-container{
+    margin-left: 104px;
+}
+.phases-container{
+    display: flex;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #eeeeee79;
+}
+.first-phase{
+    margin-right: 80px;
+}
+.first-phase-img{
+    width: 87px;
+    height: 87px;
+    background-image: url(../img/register-and-Stepsinfo/Star-Steps-info.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 1%;
+    color: #FDF8F2;
+}
+.first-phase-title{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1%;
+    color: #F7A96D;
+    margin-top: 20px;
+}
+.first-phase-description{
+    font-family: 'Stem';
+    font-weight: 350;
+    font-size: 20px;
+    letter-spacing: 1%;
+    color: #EEEEEE;
+    width: 496px;
+    margin-top: 15px;
+    line-height: 30px;
+}
+.second-phase-img{
+    width: 87px;
+    height: 87px;
+    background-image: url(../img/register-and-Stepsinfo/Star-Steps-info.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 1%;
+    color: #FDF8F2;
+}
+.second-phase-title{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1%;
+    color: #F7A96D;
+    margin-top: 20px;
+}
+.second-phase-description{
+    font-family: 'Stem';
+    font-weight: 350;
+    font-size: 20px;
+    letter-spacing: 1%;
+    color: #EEEEEE;
+    width: 448px;
+    margin-top: 15px;
+    line-height: 30px;
+}
+.phases-description{
+    font-weight: 350;
+    font-size: 20px;
+    letter-spacing: 1%;
+    color: #EEEEEE;
+    width: 1024px;
+    margin-top: 50px;
+    line-height: 30px;
 }
