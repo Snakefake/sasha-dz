@@ -70,6 +70,7 @@
 .free-choice-content{
     border-top: 1px solid #00304F;
     display: flex;
+    padding-bottom: 150px;
 }
 .free-choice-title{
     color: #00304F;
