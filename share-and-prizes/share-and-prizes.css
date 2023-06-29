@@ -134,7 +134,7 @@
     padding-bottom: 80px;
 }
 .third-prize-content{
-    margin-left: 300px;
+    margin-left: 315px;
 }
 .third-prize-title{
     display: flex;
@@ -154,4 +154,8 @@
     line-height: 60px;
     margin-left: 24px;
     color: #EEEEEE;
+}
+
+.third-prize-link{
+    margin-left: 311px;
 }
