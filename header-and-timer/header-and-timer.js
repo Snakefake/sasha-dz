@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded' , () =>{
-    const event = new Date('July 30 2023 00:00:00');
+    const event = new Date('September 21 2023 00:00:00');
     
     const daysVal = document.querySelector('.time-count-days .time-count-val');
     const hoursVal = document.querySelector('.time-count-hours .time-count-val');
